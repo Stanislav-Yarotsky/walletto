@@ -6,7 +6,7 @@ body {
     color: #000000;
     position: relative;
 }
-
+/* 
 body::before {
     background: url(../img/background.jpg) no-repeat center center;
     background-size: cover;
@@ -19,6 +19,14 @@ body::before {
     width: 100%;
     will-change: transform;
     z-index: -1;
+} */
+
+.background-image {
+    position: absolute;
+    width: 100%;
+    object-fit: cover;
+    height: 100vh;
+    object-position: center;
 }
 
 .container {
