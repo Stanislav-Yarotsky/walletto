@@ -10,7 +10,6 @@ body {
 body::before {
     background: url(../img/background.png) no-repeat center center;
     background-size: cover;
-    -webkit-backface-visibility: hidden;
     content: ' ';
     height: 100%;
     left: 0;
