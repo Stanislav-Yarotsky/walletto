@@ -1,3 +1,7 @@
+html {
+    height: -webkit-fill-available; /* We have to fix html height */
+}
+
 body {
     font-family: 'SuisseIntl-Regular';
     font-weight: 400;
@@ -10,7 +14,8 @@ body {
        -moz-background-size: cover;
          -o-background-size: cover;
             background-size: cover;
-    height: 100vh;
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
 }
 
 .container {
