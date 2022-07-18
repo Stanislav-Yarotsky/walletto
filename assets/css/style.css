@@ -474,9 +474,9 @@ nav .burger {
         justify-content: center;
     }
 
-    .wrapper .image {
+    /* .wrapper .image {
         overflow: hidden;
-    }
+    } */
 
     .wrapper .image img.mobile {
         display: block;
