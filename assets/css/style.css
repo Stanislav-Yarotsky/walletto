@@ -8,8 +8,9 @@ body {
 }
 
 body::before {
-    background: url(../img/background.png) no-repeat center center;
+    background: url(../img/background.jpg) no-repeat center center;
     background-size: cover;
+    background-attachment: fixed;
     content: ' ';
     height: 100%;
     left: 0;
