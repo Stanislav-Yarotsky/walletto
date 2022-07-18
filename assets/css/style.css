@@ -4,12 +4,12 @@ body {
     font-size: 15px;
     line-height: 17px;
     color: #000000;
-    /* background-image: url(../img/background.svg);
+    background-image: url(../img/background.png);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover; */
+    background-size: cover;
 }
 
 .container {
@@ -474,9 +474,9 @@ nav .burger {
         justify-content: center;
     }
 
-    /* .wrapper .image {
+    .wrapper .image {
         overflow: hidden;
-    } */
+    }
 
     .wrapper .image img.mobile {
         display: block;
