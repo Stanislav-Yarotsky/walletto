@@ -27,6 +27,7 @@ body::before {
     object-fit: cover;
     height: 100vh;
     object-position: center;
+    z-index: -1;
 }
 
 .container {
